@@ -22,7 +22,7 @@ console.log(location);
                 </div>)
             }
         </div>
-        <h5>READY TO GET STARTED? HAVE ANY QUESTIONS? JOIN OUR NEXT TRAINING RIGHT AWAY, SIMPLY ENTER YOUR NAME AND EMAIL ADDRESS IN THE FORM BELOW</h5>
+        <h5>READY TO GET STARTED? HAVE ANY QUESTIONS? JOIN OUR NEXT TRAINING RIGHT AWAY, SIMPLY CLICK THE LINK BELOW TO GET STARTED.</h5>
         <div className='btn'>
             <a href='https://wa.link/bejytq'><button>Join the Next Training <i className="fa-brands fa-whatsapp"></i></button></a>
         </div>
