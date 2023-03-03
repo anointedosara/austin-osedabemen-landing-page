@@ -1,0 +1,320 @@
+.wrap {
+    padding: 0 20px;
+}
+
+.projectdetails {
+    background: white;
+    box-shadow: 0px 0px 20px 6px rgb(0 0 0 / 11%);
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.projectdetails-heading {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.projectdetails-heading p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectdetails-heading i {
+    color: red;
+    font-size: 35px;
+    margin-left: 3px;
+}
+
+iframe {
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 1090px;
+    width: 100%;
+    object-fit: contain;
+    height: 614px;
+}
+
+h3 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.projectdetails-list h3 {
+    margin: 20px 0;
+}
+
+.projectdetails-list ul {
+    list-style: none;
+    padding: 0;
+    font-size: 17px;
+    color: #000000;
+}
+
+.projectdetails-list li {
+    margin: 20px 0;
+}
+
+.projectdetails-list i {
+    margin-right: 10px;
+}
+
+.faq h3 {
+    margin: 40px 0
+}
+
+.faq-question {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.each-question {
+    border-radius: 5px 5px 0 0;
+    margin: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 6px rgb(0 0 0 / 11%);
+    border-bottom: 2px solid black;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 25px 25px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0;
+    font-family: "Poppins", Sans-serif;
+}
+
+.answer {
+    padding: 0px 25px 0px;
+    transition: 0.3s all ease;
+}
+
+.show{
+    padding-bottom: 50px;
+    height: auto;
+    overflow: auto;
+}
+
+.answer p {
+    color: #3d4459;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hide {
+    height: 0;
+    overflow: hidden;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 0.3s all ease;
+}
+
+h5 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 60px 0 30px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn i {
+    color: green;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .projectdetails {
+        margin-top: 50px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    iframe {
+        height: 400px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    h5 {
+        font-size: 20px;
+        margin: 60px 0 30px;
+    }
+    .question {
+        padding: 17px 25px;
+    }
+    .answer p {
+        font-size: 17px;
+    }
+    .show{
+        padding-bottom: 30px;
+    }
+    h5 {
+        font-size: 20px;
+        margin: 40px 0 30px;
+    }
+    .btn {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .projectdetails {
+        margin-top: 40px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    .projectdetails-heading p {
+        font-size: 14px;
+    }
+    .projectdetails-heading i {
+        font-size: 30px;
+        margin-left: 3px;
+    }
+    iframe {
+        height: 230px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .faq h3 {
+        margin: 30px 0 10px;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    h5 {
+        font-size: 20px;
+        margin: 60px 0 30px;
+    }
+    .question {
+        padding: 14px 15px;
+    }
+    .each-question {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .answer {
+        padding: 0px 15px 0px;
+    }
+    .answer p {
+        font-size: 13px;
+        margin: 0 0 20px;
+    }
+    .show{
+        padding-bottom: 1px;
+    }
+    h5 {
+        font-size: 15px;
+        margin: 20px 0 20px;
+    }
+    button {
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+    .btn {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .projectdetails {
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .projectdetails-heading p {
+        font-size: 14px;
+        display: block;
+    }
+    .projectdetails-heading i {
+        font-size: 20px;
+    }
+    iframe {
+        height: 180px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .projectdetails-list ul {
+        font-size: 12px;
+    }
+    .projectdetails-list li {
+        margin: 15px 0;
+    }
+    .projectdetails-list i {
+        margin-right: 7px;
+    }
+    .faq h3 {
+        margin: 20px 0 10px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .answer p {
+        font-size: 12px;
+    }
+    h5 {
+        font-size: 15px;
+        margin: 20px 0 20px;
+    }
+    .btn {
+        margin-bottom: 10px;
+    }
+    button {
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+}
