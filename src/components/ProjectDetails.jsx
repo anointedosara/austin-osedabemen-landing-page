@@ -6,10 +6,9 @@ function ProjectDetails() {
     <div className='wrap'>
       <div className='projectdetails'>
         <div className='projectdetails-heading'>
-            <h2>TRANSFORM YOUR LIFE: LEARN TO BUILD A PROFITABLE ONLINE BUSINESS CALLED AFFILIATE
-            MARKETING FROM SCRATCH, GENERATING $100+ WEEKLY INCOME AS A COMPLETE NEWBIE!</h2>
+            <h2>Transform your life: get the best mentorship on how to build a profitable online business from scratch that will generate 100k + weekly income as a complete newbies!</h2>
             <p>Watch video below to get a clearer understanding <i className="fa-brands fa-youtube"></i></p>
-            <iframe src="https://www.youtube.com/embed/Dl7Yig2U3hA" title="How 
+            <iframe src="./images/intro-video.mp4" title="How 
             To Start Affiliate Marketing With Digitstem | Ultimate Money Machine Updated" frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
             web-share" allowFullScreen></iframe>

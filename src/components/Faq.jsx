@@ -15,7 +15,7 @@ console.log(location);
                 <div key={i} className='each-question'>
                     <div onClick={() => location !== item?.id ? setLocation(item?.id) : setLocation(0)} className='question'>
                         <h4>{item?.question}</h4>
-                        <div className={location === item?.id ? 'rotate' : ''}><i className={item?.arrow}></i></div>
+                        <div className={location === item?.id ? 'rotate' : 'back'}><i className={item?.arrow}></i></div>
                     </div>
                     <div className={location === item?.id ? 'answer show' : 'answer hide'}>{item?.answer?.map((ite, i) => 
                     <p key={i}>{ite}</p>)}</div>

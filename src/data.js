@@ -8,14 +8,14 @@ const faqData = [
 },
 {
     id: 2,
-    question: 'WHAT IS DIGITSTEM',
+    question: 'WHAT IS AFFILIATE INCOME PILOT(AIP) BLUEPRINT',
     answer: ['An affiliate platform that will give you access to multiple products to promote.'],
     arrow: 'fa-solid fa-caret-down'
 },
 {
     id: 3,
     question: 'HOW MUCH DOES IT COST TO GET STARTED?',
-    answer: ['Currently it costs only N20,050. However, prices goes up in 7 days.'],
+    answer: ['Contact me via the button below to get started.'],
     arrow: 'fa-solid fa-caret-down'
 },
 {
@@ -27,7 +27,7 @@ const faqData = [
 {
     id: 5,
     question: 'HOW CAN I SIGNUP?',
-    answer: ['Contact me to get the link or instructions to signup.'],
+    answer: ['Contact me via the button provided below to get the link or instructions to signup.'],
     arrow: 'fa-solid fa-caret-down'
 }
 ];

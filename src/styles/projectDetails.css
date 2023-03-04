@@ -24,6 +24,7 @@ h2 {
     color: #000000;
     font-size: 33px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .projectdetails-heading p {
@@ -131,6 +132,11 @@ h4 {
 
 .rotate {
     transform: rotate(180deg);
+    transition: 0.3s all ease;
+}
+
+.back {
+    transform: rotate(0deg);
     transition: 0.3s all ease;
 }
 
