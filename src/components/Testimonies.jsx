@@ -11,13 +11,13 @@ function Testimonies() {
         </div>
         <div className='testimony-videoes'>
             <iframe src="./images/testimony1.mp4" title='testimony1' alt="" frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
             web-share" allowFullScreen></iframe>
             <iframe src="./images/testimony2.mp4" title='testimony2' alt="" frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
             web-share" allowFullScreen></iframe>
             <iframe src="./images/testimony3.mp4" title='testimony3' alt="" frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
             web-share" allowFullScreen></iframe>
         </div>
     </div>
