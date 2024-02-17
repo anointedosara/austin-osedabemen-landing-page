@@ -8,7 +8,7 @@ function ProjectDetails() {
         <div className='projectdetails-heading'>
           <h2>Transform your life: get the best mentorship on how to build a profitable online business from scratch that will generate 100k + weekly income as a complete newbies!</h2>
         <div className='btn'>
-        <a href='https://wa.link/bejytq'><button>Call to Action <i className="fa-brands fa-whatsapp"></i></button></a>
+        <a href='https://wa.link/xeg3ab'><button>Call to Action <i className="fa-brands fa-whatsapp"></i></button></a>
         </div>
             <p>Watch video below to get a clearer understanding <i className="fa-brands fa-youtube"></i></p>
             <iframe src="./images/intro-video.mp4" title="How 
