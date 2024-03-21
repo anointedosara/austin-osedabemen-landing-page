@@ -6,7 +6,7 @@ function Header() {
     <Wrapper>
       <StyledDiv>
         <ProfilePic className="profilepic" src="./images/header-img.jpg" alt="" />
-        <H1>SUCCESS WITH AUSTIN OSEDEBAMEN EHIAKHAMEN</H1>
+        <H1>SUCCESS WITH GOLDEN KING'S OSEDEBAMEN NIG</H1>
         <Div></Div>
       </StyledDiv>
     </Wrapper>
